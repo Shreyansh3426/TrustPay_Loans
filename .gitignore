@@ -1,0 +1,35 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+out/
+coverage/
+.cache/
+.parcel-cache/
+.vite/
+*.tsbuildinfo
+*.log
+*.tmp
+*.temp
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Credentials and secrets
+credentials/
+secrets/
+private/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
